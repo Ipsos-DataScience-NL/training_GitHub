@@ -23,6 +23,7 @@ For this we will use *GitBash* or *Command Prompt*.
 - `git branch <branchname>` - makes a new branch with the specified name
 - `git checkout <branchname>` - checks out the specified branch (you are now working on that branch)
 - `git checkout -b <branchname>` - makes a new branch and checks it out (you are now working on the new branch)
+- `git checkout -` - checks out the previous branch you visited
 - `git status` - shows what files and folders were changes/added/removed
 - `git diff` - shows what code was changed, this might need some scrolling. To exit, type *q*
 - `git stash` - stashes the changes you made since the last commit; you can retrieve them later if needed
